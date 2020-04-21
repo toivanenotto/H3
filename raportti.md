@@ -53,4 +53,24 @@ Jolloin palautui viimeisin versio jolle oltiin tehty commit.
 
 ## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehoitteesta toimivan ohjelman. Käytä tarvittaessa 'find -printf "%T+ %p\n"|sort' löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
 
+Päätin tehdä VLC-modulin joka asentaa kyseisen ohjelman.
 
+Aloitin tekemällä kansion modulia varten
+
+> sudo mkdir /srv/salt/vlc
+
+Ja tekemällä sinne init.sls-tiedoston
+
+![vlc_init.png](H3images/vlc_init.png)
+
+Ja sen jälkeen ajoin modulin
+
+> sudo salt '*' state.apply vlc
+
+![vlc_apply.png](H3images/vlc_apply.png)
+
+Kokeiluksi avasin VLC:n kirjoittamalla komentoriville vlc
+
+![vlc_test1.png](H3images/vlc_test1.png)
+
+Ja homma toimi.
