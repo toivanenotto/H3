@@ -74,3 +74,9 @@ Kokeiluksi avasin VLC:n kirjoittamalla komentoriville vlc
 ![vlc_test1.png](H3images/vlc_test1.png)
 
 Ja homma toimi.
+
+## Lähteet
+
+http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
+
+http://terokarvinen.com/2016/publish-your-project-with-github
