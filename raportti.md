@@ -17,4 +17,22 @@ Siirryin kloonaamaani H3-kansioon ja aloin kirjoittamaan tätä raporttia MarkDo
 
 ## d) Näytä omalla git-varastollasi esimerkit komennoista 'git log', 'git diff' ja 'git blame'. Selitä tulokset.
 
+Aloitin komennolla
 
+> git diff
+
+![001](/H3images/001.png)
+
+Komento näyttää repositorion muutokset, niiden tekijät ja tarkan kellonajan.
+
+> git diff
+
+![002](/H3images/002.png)
+
+Komento näyttää erot kahden eri version välillä.
+
+> git blame
+
+![003](/H3images/003.png)
+
+Komento näyttää tiedostojen rivien muokkausajat ja tekijän.
