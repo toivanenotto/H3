@@ -36,3 +36,21 @@ Komento näyttää erot kahden eri version välillä.
 ![003](/H3images/003.png)
 
 Komento näyttää tiedostojen rivien muokkausajat ja tekijän.
+
+## e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset 'git reset --hard'. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+
+Lisäsin tähän raporttiin pätkän tekstiä
+
+![004](/H3images/004.png)
+
+Ja sitten tein tehtävänannossa mainitus komennon
+
+> git reset --hard
+
+![005](H3images/005.png)
+
+Jolloin palautui viimeisin versio jolle oltiin tehty commit.
+
+## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehoitteesta toimivan ohjelman. Käytä tarvittaessa 'find -printf "%T+ %p\n"|sort' löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
+
+
