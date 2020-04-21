@@ -19,7 +19,7 @@ Siirryin kloonaamaani H3-kansioon ja aloin kirjoittamaan tätä raporttia MarkDo
 
 Aloitin komennolla
 
-> git diff
+> git log
 
 ![001](/H3images/001.png)
 
